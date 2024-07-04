@@ -5,7 +5,7 @@ public class BinarySearchDemo {
     int nums[]={2,4,6,10,25};
     int left=0;
     int right=nums.length;
-         int target=4;
+         int target=;
         int result=BinarySearch(nums,target,left,right);
         if(result != -1)
             System.out.println(result);
