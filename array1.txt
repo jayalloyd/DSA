@@ -34,6 +34,7 @@ class ArrayPractice{
             
           
         } System.out.println("number not found");
+          sc.close();
         
     }
 }
