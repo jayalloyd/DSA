@@ -1,2 +1,2 @@
 # DSA
-Part of my learning journey
+Data Structures and Algorithms -> solutions using Java
