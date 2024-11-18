@@ -1,5 +1,5 @@
 public class HollowRhombus{
-    public static void hollowRhombusPrint(int totalRows,int totalColumns){
+    public static void hollowRhombusPrint(int totalRows){
         for(int i=1;i<=totalRows;i++){
                 
                 //spaces
@@ -7,8 +7,8 @@ public class HollowRhombus{
                 System.out.print(" ");
             }
             //stars
-            for(int j=1;j<=totalColumns;j++){
-                if(i==1 || i==totalRows || j==1 || j==totalColumns){
+            for(int j=1;j<=totalRows;j++){
+                if(i==1 || i==totalRows || j==1 || j==totalRows){
                         System.out.print("*");
 
                     }
@@ -25,6 +25,6 @@ public class HollowRhombus{
     
     
     public static void main(String[] args) {
-        hollowRhombusPrint(5,9);
+        hollowRhombusPrint(5);
     }
 }
